@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'polls.apps.PollsConfig',
 ]
 
 MIDDLEWARE = [
@@ -77,7 +79,15 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
+    },
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.mysql',
+    #     'NAME': 'mydatabase',
+    #     'HOST': '127.0.0.1',
+    #     'PORT': '3306',
+    #     'USER': 'root',
+    #     'PASSWORD': '',
+    # }
 }
 
 
@@ -105,7 +115,8 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+# TIME_ZONE = 'UTC' # default
+TIME_ZONE = 'Asia/Shanghai'
 
 USE_I18N = True
 

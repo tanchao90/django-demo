@@ -14,6 +14,9 @@ A django demo.
 - Learn `Writing your first Django app, part 1` in Getting started.
 - Create `polls` apps.
 
+#### 2017.08.02
+- Learn `Writing your first Django app, part 2、3、4、5` in Getting started.
+
 
 ## Reference
 - [Django documentation](https://docs.djangoproject.com/en/1.11/)
