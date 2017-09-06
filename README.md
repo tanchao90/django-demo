@@ -18,6 +18,13 @@ A django demo.
 - [Writing your first Django app, part 6](https://docs.djangoproject.com/en/1.11/intro/tutorial06/) Customize your app’s look and feel.
 - [Writing your first Django app, part 7](https://docs.djangoproject.com/en/1.11/intro/tutorial07/) Customize the admin app.
 - [Advanced tutorial: How to write reusable apps](https://docs.djangoproject.com/en/1.11/intro/reusable-apps/) Use [setuptools](https://pypi.python.org/pypi/setuptools) to package your app.
+- [What to read next](https://docs.djangoproject.com/en/1.11/intro/whatsnext/) Explain docs.
+- [Writing your first patch for Django](https://docs.djangoproject.com/en/1.11/intro/contributing/) Contributing to Django.
+
+
+## Run demo
+- `cd mysite`
+- `python manage.py runserver`
 
 
 ## Development Progress
@@ -31,6 +38,9 @@ A django demo.
 
 #### 2017.09.04
 - Learn `part 6、7, reusable apps`.
+
+#### 2017.09.06
+- Learn `read doc, contributing`.
 
 
 ## Reference
